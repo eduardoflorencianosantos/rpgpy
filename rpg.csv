@@ -1,0 +1,6 @@
+Cenários,Situação,Aventura,Opção A),Opção B),Probabilidade de sucesso da opção A),Probabilidade de fracasso da opção A)
+Praia,1,"O seu avião caiu em uma ilha, não há como escapar (por enquanto). Você se sente perdido, não sabe o que fazer para escapar da ilha, pois está de noite. Então você:",Pega os destroços do avião e faz uma fogueira.,Entra na floresta para buscar mantimentos.,"Consegue se esquentar, sem perigo 96",Chama a atenção dos canibais 92
+Praia,2,,,,,
+Praia,3,,,,,
+Praia,4,,,,,
+Praia,5,,,,,
