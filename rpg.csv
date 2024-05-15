@@ -1,6 +1,21 @@
-Cenários,Situação,Aventura,Opção A),Opção B),Probabilidade de sucesso da opção A),Probabilidade de fracasso da opção A)
-Praia,1,"O seu avião caiu em uma ilha, não há como escapar (por enquanto). Você se sente perdido, não sabe o que fazer para escapar da ilha, pois está de noite. Então você:",Pega os destroços do avião e faz uma fogueira.,Entra na floresta para buscar mantimentos.,"Consegue se esquentar, sem perigo 96",Chama a atenção dos canibais 92
-Praia,2,,,,,
-Praia,3,,,,,
-Praia,4,,,,,
-Praia,5,,,,,
+Cenários,Situação,Aventura,Opção A),Opção B),Probabilidade de sucesso A),Porcentagem de sucesso A),Probabilidade de fracasso B),Porcentagem de fracasso A),Probabilidade de sucesso B),Porcentagem de sucesso B),Probabilidade de fracasso B),Porcentagem de fracasso B)
+Praia,1,"O seu avião caiu em uma ilha, não há como escapar (por enquanto). Você se sente perdido, não sabe o que fazer para escapar da ilha, pois está de noite. Então você:",Pega os destroços do avião e faz uma fogueira.,Entra na floresta para buscar mantimentos.,"Consegue se esquentar com a fogueira, sem perigo.",96,Chama a atenção dos canibais.,16,Você encontra um cacho de bananas para comer.,98,Você é picado por uma cobra venenosa.,56
+Praia,2,,,,,,,,,,,
+Praia,3,,,,,,,,,,,
+Praia,4,,,,,,,,,,,
+Praia,5,,,,,,,,,,,
+Floresta,6,,,,,,,,,,,
+Floresta,7,,,,,,,,,,,
+Floresta,8,,,,,,,,,,,
+Floresta,9,,,,,,,,,,,
+Floresta,10,,,,,,,,,,,
+Tribo,11,,,,,,,,,,,
+Tribo,12,,,,,,,,,,,
+Tribo,13,,,,,,,,,,,
+Tribo,14,,,,,,,,,,,
+Tribo,15,,,,,,,,,,,
+Templo,16,,,,,,,,,,,
+Templo,17,,,,,,,,,,,
+Templo,18,,,,,,,,,,,
+Templo,19,,,,,,,,,,,
+Templo,20,,,,,,,,,,,
