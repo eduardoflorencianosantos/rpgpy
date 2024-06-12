@@ -39,3 +39,13 @@ print("-------------------------------------------------------------------------
 
 resultado = removerAventura(planilha)
 print(resultado)
+
+print("----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
+
+escolha = input("Escolha entre as opções a e b: ")
+while escolha != "a" and escolha != "b":
+    escolha = input("Seu imbecil, é só continue
+if escolha == "a":
+    print("Escolheu a")
+elif escolha == "b":
+    print("Escolha b")
