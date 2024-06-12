@@ -42,10 +42,8 @@ print(resultado)
 
 print("----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
 
-escolha = input("Escolha entre as opções a e b: ")
-while escolha != "a" and escolha != "b":
-    escolha = input("Seu imbecil, é só continue
-if escolha == "a":
-    print("Escolheu a")
-elif escolha == "b":
-    print("Escolha b")
+escolha = input("Digite 'continue' para avançar: ")
+while escolha != "continue":
+    escolha = input("Não foi possível avançar. Digite 'continue': ")
+if escolha == "continue":
+    print("Pode avançar, boa sorte!")
