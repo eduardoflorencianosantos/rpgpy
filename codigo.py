@@ -11,14 +11,15 @@ def imprimirAventuras(planilha):
 	for eduardo in planilha:
 		print(f"Aventura: {eduardo['Aventura']}")
 
-def aventuraEspecifica(planilha):
-	print(planilha[9])
+def aventuraEspecifica(planilha, elementoEspecifico):
+	for eduardo in planilha:
+		if eduardo == elementoEspecifico:
+			print(f"Aventura: {eduardo['Aventura']}")
 
-def removerAventura(planilha):
-	for dudu in planilha:
-		if 'Aventura' in dudu:
-			del dudu['Aventura']
-	return planilha
+def removerAventura(planilha, elementoRemovido):
+	for eduardo in planilha:
+		if eduardo != elementoRemovido:
+			print(f"Aventura: {eduardo['Aventura']}")
 
 with open("rpg.csv", "r") as minhaPlanilha:
 	novaVariavel = csv.DictReader(minhaPlanilha)
@@ -33,12 +34,13 @@ imprimirAventuras(planilha)
 
 print("----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
 
-aventuraEspecifica(planilha)
+elementoEspecifico = planilha[9]
+aventuraEspecifica(planilha, elementoEspecifico)
 
 print("----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
 
-resultado = removerAventura(planilha)
-print(resultado)
+elementoRemovido = planilha[19]
+removerAventura(planilha, elementoRemovido)
 
 print("----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
 
