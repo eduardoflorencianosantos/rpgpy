@@ -1,10 +1,11 @@
+import csv
+
 with open("apresentacao.txt") as minhaApresentacao:
 	minhaVariavel = minhaApresentacao.read()
 print(minhaVariavel)
 
 print("----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
 
-import csv
 planilha = []
 
 def imprimirAventuras(planilha):
@@ -20,6 +21,14 @@ def removerAventura(planilha, elementoRemovido):
 	for eduardo in planilha:
 		if eduardo != elementoRemovido:
 			print(f"Aventura: {eduardo['Aventura']}")
+
+def funcaoContinue():
+	escolha = input("Digite 'continue' para avançar: ")
+	while escolha != "continue":
+    		escolha = input("Não foi possível avançar. Digite 'continue': ")
+	if escolha == "continue":
+    		print("Pode avançar, boa sorte!")
+	return escolha
 
 with open("rpg.csv", "r") as minhaPlanilha:
 	novaVariavel = csv.DictReader(minhaPlanilha)
@@ -44,8 +53,4 @@ removerAventura(planilha, elementoRemovido)
 
 print("----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------")
 
-escolha = input("Digite 'continue' para avançar: ")
-while escolha != "continue":
-    escolha = input("Não foi possível avançar. Digite 'continue': ")
-if escolha == "continue":
-    print("Pode avançar, boa sorte!")
+funcaoContinue()
